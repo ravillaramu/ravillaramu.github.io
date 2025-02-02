@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Ravilla Ramu</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f7;
+            color: #333;
+        }
+        .header-nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            padding: 1rem;
+        }
+        .header {
+            color: #fff;
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            color: #fff;
+            margin: 0.5rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 90%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #000;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .section p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .experience ul li {
+            background-color: #fff;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            color: #333;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .experience ul li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+                margin: 1rem auto;
+            }
+            .nav a {
+                margin: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-nav-container">
+        <div class="header">
+            <h1>Ravilla Ramu - DevOps Engineer</h1>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experience</a>
+            <a href="projects.html">Projects</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Experience</h2>
+            <p>I specialize in creating robust, scalable, and secure AWS environments end-to-end, from infrastructure automation to deployment optimization. My expertise spans cloud architecture, Kubernetes, security, CI/CD automation, and cost-efficient cloud solutions.</p>
+            <div class="experience">
+                <ul>
+                    <li>
+                        <strong>Cloud & DevOps Engineer</strong>
+                        <ul>
+                            <li><strong>End-to-End AWS Environment Setup</strong>
+                                <ul>
+                                    <li>Designed and deployed highly available, secure, and scalable AWS architectures for production workloads.</li>
+                                    <li>Implemented multi-account AWS strategies with cross-account networking, IAM security, and automated backups.</li>
+                                    <li>Configured private database connectivity and making the connectivity to developers using bastion.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Kubernetes & Container Management</strong>
+                                <ul>
+                                    <li>Deployed and optimized Kubernetes workloads (EKS, self-managed clusters) with HPA, Ingress, and observability tools.</li>
+                                    <li>Managed Dockerized applications with CI/CD, reducing deployment time and enhancing reliability.</li>
+                                </ul>
+                            </li>
+                            <li><strong>CI/CD & Infrastructure as Code (IaC)</strong>
+                                <ul>
+                                    <li>Built end-to-end CI/CD pipelines using Jenkins, AWS DevOps and Azure DevOps, ensuring seamless deployments.</li>
+                                    <li>Automated infrastructure provisioning with Terraform reducing manual effort and risks. creating the modules for code reusability</li>
+                                </ul>
+                            </li>
+                            <li><strong>Networking & Security</strong>
+                                <ul>
+                                    <li>Configured secure, scalable AWS network using VPC, private subnets, ALB/NLB, and cross-account encryption.</li>
+                                    <li>Implemented IAM best practices, SSL termination, and network isolation to ensure security compliance.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Monitoring & Performance Optimization</strong>
+                                <ul>
+                                    <li>Implemented Prometheus, Grafana, and CloudWatch for real-time monitoring and alerting, improving system reliability.</li>
+                                    <li>Optimized database performance, storage, and cloud costs to enhance efficiency.</li>
+                                </ul>
+                            </li>
+                            <li><strong>AWS & Azure Integrations</strong>
+                                <ul>
+                                    <li>Configured Azure DevOps service connections with least privilege access to App Services, Functions, and Third-party tools.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <ul>
+                    <li>
+                        <strong>Cloud & DevOps Engineer</strong>
+                        <p>🚀 HTC Global Services – (14-June-2021 to Till Date) (Shared Projects)</p>
+                        <ul>
+                            <li>Designed and deployed a robust AWS environment end-to-end for a high-traffic application.</li>
+                            <li>Migrated on-prem Kubernetes workloads to AWS EKS, improving performance and reducing costs.</li>
+                            <li>Automated infrastructure setup using Terraform, ensuring consistency across environments.</li>
+                            <li>Deployed Java application in Tomcat applications and created the AWS DevOps pipelines for build and deploy for UAT and Production Environment.</li>
+                            <li>Conducted the DR activity for the banking applications to check all the data is backing up properly.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
