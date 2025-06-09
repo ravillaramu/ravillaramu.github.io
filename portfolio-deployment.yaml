@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portfolio-deployment
+  namespace: portfolio-prod
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: portfolio-deployment
+  template:
+    metadata:
+      labels:
+        app: portfolio-deployment
+    spec:
+      containers:
+      - name: portfolio-container
+        image: ravillaramu/ravillaramu-portfolio:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: PORTFOLIO_ENV
+          value: "production"
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 10
+          periodSeconds: 15
+          timeoutSeconds: 2
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 2
+          failureThreshold: 3
