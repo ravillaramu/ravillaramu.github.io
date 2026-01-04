@@ -176,7 +176,7 @@ const Index = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <p className="text-lg text-gray-700 leading-relaxed font-light">
-                  A dedicated and passionate Cloud & DevOps Engineer with nearly 4 years of experience in designing, 
+                  A dedicated and passionate Cloud & DevOps Engineer with 4+ years of experience in designing, 
                   deploying, and optimizing scalable, secure, and cost-efficient cloud infrastructures. My expertise 
                   spans across AWS, Azure, and GCP, specializing in transforming complex systems into streamlined, 
                   automated environments.
