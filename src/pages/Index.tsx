@@ -142,7 +142,7 @@ const Index = () => {
               <span className="block font-thin text-blue-600">Engineer</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 font-light leading-relaxed max-w-3xl mx-auto">
-              With 4 years of experience in designing scalable cloud infrastructure and automation solutions
+              With 4+ years of experience in designing scalable cloud infrastructure and automation solutions
             </p>
             <div className="flex flex-wrap justify-center gap-6 mb-12">
               <Badge variant="secondary" className="bg-blue-50 text-blue-700 border-blue-200 px-6 py-3 text-base font-medium rounded-full hover:bg-blue-100 transition-colors">
